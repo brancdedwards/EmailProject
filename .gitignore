@@ -1,0 +1,29 @@
+# Environment variables (NEVER commit secrets)
+.env
+*.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# PyCharm IDE files
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# macOS
+.DS_Store
